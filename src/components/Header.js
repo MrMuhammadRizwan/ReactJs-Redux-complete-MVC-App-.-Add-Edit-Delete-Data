@@ -11,7 +11,7 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-        <h2>TODO APP</h2>
+        <h2>ReactJs - Redux Complete MVC App</h2>
         <GetInput newTodo
           onSave={this.handleSave} />
       </header>
